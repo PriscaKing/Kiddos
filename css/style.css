@@ -209,34 +209,53 @@ body {
 }
 
 
-.all-questions {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
-  }
-  
-  .all-questions > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-  .question {
-    background: white;
-  }
-  
-  .question > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
+.flex-container {
+    display: flex;
+    padding: 50px;
+    background-color: #94DCE7;
+}
+
+.question h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.question span{
+    margin: 5px;
+}
+
+.blog-post{
+    padding-top: 0px;
+}
+
+
+.blog-post img{
+    width: 10rem;
+
+}
+
+.blog-post a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-navs a{
+text-decoration: none;
+color: black;
+}
+
+
+.input{
+padding-left: 50px;
+padding-top: 20px;
+}
+
+
+.input button{
+    background-color: #023E30;
+}
+
+.input button a{
+    text-decoration: none;
     color: white;
-  }
-
-
-
-
-
+}
