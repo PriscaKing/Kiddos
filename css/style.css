@@ -171,12 +171,13 @@ body {
 
 
 #offeric {
-    background-color: aqua;
+    /* background-color: burlywood; */
+    background-color: rgb(173, 38, 173);
     border-radius: 100px;
     display: inline-flex;
     padding: 10px;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
 }
 
 #offeric i {
@@ -190,21 +191,95 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 60px;
-    grid-row-gap: 30px;    
+    grid-row-gap: 30px;
 }
 
 
 
 
 .welcometokiddos {
-     
+    background-image: linear-gradient(rgba(150, 35, 35, 0.5), rgba(139, 73, 73, 0.5)), url(../img/bg_3.jpg);
+    height: 50vh;
+    padding-top: 10rem;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: center;
+    display: flex;
+}
 
 
-   
+.welcometokiddos h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10rem;
+    text-align: center;
+    margin-top: 0.5px;
+
+}
+
+
+.welcometokiddos p {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+.welcometokiddos button {
+    color: beige;
+    background-color: burlywood;
+    /* background-color: rgb(31, 163, 31); */
+    margin-top: 30px;
+
 }
 
 
 .goodmanners {
+    text-align: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+
+}
+
+
+.goodmanners button {
+    /* background-color: burlywood; */
+    background-color: rgb(240, 47, 47);
+}
+
+
+.certifiedteachers {
+    text-align: center;
+}
+
+
+
+.teacher-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 14px;
+    grid-row-gap: 0px;
+    padding: 50px;
+
+}
+
+.image img {
+    width: 18rem;
+}
+
+
+.image a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#teacher-btn {
+    color: beige;
+    /* background-color: burlywood; */
+    margin-bottom: 70px;
+    background-color: rgb(173, 38, 173);
 
 }
 
