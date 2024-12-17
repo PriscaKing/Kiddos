@@ -29,11 +29,12 @@ body {
 }
 
 #navbar {
-    display: flex;
-    flex-direction: column; /* Stack nav items for smaller screens */
+    /* display: flex;
+    flex-direction: column; */
+     /* Stack nav items for smaller screens */
     background-color: beige;
     padding: 15px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 #navlinks {
@@ -60,7 +61,7 @@ body {
 }
 
    .checkbtn  i {
-    font-size: 2rem;  
+    font-size: 2rem;
    }
    /* Hide menu by default */
    .nav-mobile {
@@ -92,7 +93,7 @@ body {
 #allcard {
     display: flex;
     flex-direction: column;
-    margin-left: 7.5%;
+    margin-left: 6.5%;
 
 }
 
@@ -115,7 +116,19 @@ body {
     font-size: 2rem;
     padding: 2rem 3rem;
     }
-   }
+   
+
+   .button2 {
+    background-color: #023E30;
+    border-radius: 50px;
+    width: 160px;
+    height: 70px;
+    border: 0cm;
+    list-style: none;
+    margin-left: 20%;   
+}
+}
+
 
 
 
@@ -201,7 +214,7 @@ body {
 
 
 .button1 {
-    background-color: #023E30;
+    background-color: #21b8cf;
     border-radius: 50px;
     width: 160px;
     height: 70px;
@@ -212,7 +225,7 @@ body {
 
 .button1 a{
     text-decoration: none;
-    color: white;
+    color: white;  
 }
 
 
@@ -341,8 +354,11 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     justify-content: center;
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
 }
+
+
 @media only screen and (max-width: 601px) {
      .welcometokiddos p{
       display: none;
@@ -435,13 +451,18 @@ body {
     flex-direction: column;
 }
 
+/* .question {
+ 
+} */
 
 .question h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.question span{
-    margin: 5px;
+
+.quest{
+    padding-left: 0%;
+    padding-bottom: 5%;
 }
 
 .blog-post{
@@ -460,6 +481,11 @@ body {
 }
 
 
+
+.footer-navs{
+    padding-left: 0.7rem;
+    }
+    
 .footer-navs a{
 text-decoration: none;
 color: black;
@@ -467,8 +493,8 @@ color: black;
 
 
 .input{
-padding-left: 50px;
 padding-top: 20px;
+
 }
 
 
@@ -481,6 +507,17 @@ padding-top: 20px;
     color: white;
 }
 
+.socials i{
+ padding: 0.5rem;
+} 
+
+
+.author p{
+    display: flex;
+    flex-direction: column;
+    padding:5%;
+    margin: 5%;
+}
 
 
 
